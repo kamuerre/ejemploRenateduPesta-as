@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 96%);
+    margin: 0;
+    /* Fondo opcional */
+}
+
+.logo {
+    height: 50px;
+    margin-left: 300px;
+
+    fill: #242c4f
+}
+
+.btnlogin {
+    padding: 10px 20px;
+    background-color: #242c4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #242c4f;
+}
+
+.linea-basica {
+    margin-bottom: 0.0;
+    height: 4px;
+    background-color: #db9e24;
+    opacity: 10;
+}
+
+
+.jumbotron {
+
+    height: 30vh;
+    /* Ocupa toda la altura de la ventana */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #eee;
+    background-image: url(capacitacion.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+
+
+}
+
+.jumbotron,
+h1 {
+    text-align: center;
+    align-content: center;
+    display: block;
+
+    justify-content: center;
+}
+
+.jumbotron,
+h2 {
+    text-align: center;
+    display: block;
+
+    justify-content: center;
+}
+
+.contenedor {
+    height: 400px;
+
+    display: flex;
+
+}
+
+.divUno {
+    width: 25%;
+}
+
